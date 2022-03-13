@@ -58,16 +58,48 @@
 		6C29E13F27CAC20C00A79324 /* PassData */ = {
 			isa = PBXGroup;
 			children = (
-				6C29E14027CAC20C00A79324 /* AppDelegate.swift */,
-				6C29E14227CAC20C00A79324 /* SceneDelegate.swift */,
-				6C29E14427CAC20C00A79324 /* ViewController.swift */,
-				6C29E15427CAC57A00A79324 /* SecondViewController.swift */,
-				6C29E14627CAC20C00A79324 /* Main.storyboard */,
-				6C29E14927CAC20E00A79324 /* Assets.xcassets */,
-				6C29E14B27CAC20E00A79324 /* LaunchScreen.storyboard */,
-				6C29E14E27CAC20E00A79324 /* Info.plist */,
+				6CA3431527DDF91F00A06801 /* ViewControllers */,
+				6CA3431627DDF92A00A06801 /* Storyboards */,
+				6CA3431727DDF93200A06801 /* Resources */,
+				6CA3431427DDF91A00A06801 /* App */,
 			);
 			path = PassData;
+			sourceTree = "<group>";
+		};
+		6CA3431427DDF91A00A06801 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6C29E14027CAC20C00A79324 /* AppDelegate.swift */,
+				6C29E14227CAC20C00A79324 /* SceneDelegate.swift */,
+				6C29E14E27CAC20E00A79324 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6CA3431527DDF91F00A06801 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C29E14427CAC20C00A79324 /* ViewController.swift */,
+				6C29E15427CAC57A00A79324 /* SecondViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6CA3431627DDF92A00A06801 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6C29E14627CAC20C00A79324 /* Main.storyboard */,
+				6C29E14B27CAC20E00A79324 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6CA3431727DDF93200A06801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C29E14927CAC20E00A79324 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,23 +327,22 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PassData/Info.plist;
+				INFOPLIST_FILE = PassData/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pass Data";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.PassData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,23 +355,22 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PassData/Info.plist;
+				INFOPLIST_FILE = PassData/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pass Data";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.PassData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
